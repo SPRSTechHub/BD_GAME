@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kidogame.android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/bdfatafat"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bdfatafat"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KidoGame">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kidogame.android.activity.TranscationHistoryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            />
+
+        <activity
+            android:name="com.kidogame.android.activity.BetPlacementActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kidogame.android.activity.BetSelectionActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kidogame.android.activity.AddWalletActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kidogame.android.activity.LoginActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            android:theme="@style/KidoGameSplashScreen" />
+
+        <activity
+            android:name="com.kidogame.android.activity.MainActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kidogame.android.activity.MyBetHistoryActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kidogame.android.activity.MyWinHistoryActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kidogame.android.activity.RegisterActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            android:theme="@style/KidoGameSplashScreen" />
+
+        <activity
+            android:name="com.kidogame.android.activity.SubGameActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.kidogame.android.activity.WithdrawActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:windowSoftInputMode="adjustResize"
+            android:name="com.kidogame.android.activity.BetPlacementJodiActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.WebviewActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="adjustResize"
+            android:name=".activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WebviewOnlinePaymentActivity"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:windowSoftInputMode="adjustResize"
+            android:name=".activity.ReferAndEarnActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

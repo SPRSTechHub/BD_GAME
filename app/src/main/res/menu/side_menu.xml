@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_home" android:id="@+id/opHome" android:title="Home"/>
+        <item android:icon="@drawable/ic_withdraw" android:id="@+id/opWithdraw" android:title="Withdraw"/>
+        <item android:icon="@drawable/ic_share" android:id="@+id/opReferAndEarn" android:title="Refer &amp; Earn"/>
+        <item android:icon="@drawable/ic_transcation" android:id="@+id/opTransactionHistory" android:title="Transaction History"/>
+<!--        <item android:icon="@drawable/ic_game_timing" android:id="@+id/opGameTiming" android:title="Game Timing"/>-->
+        <item android:icon="@drawable/ic_rule" android:id="@+id/opGameRule" android:title="Game Rule"/>
+        <item android:icon="@drawable/ic_whatsapp" android:id="@+id/opWhatsapp" android:title="What&apos;s app"/>
+        <item android:icon="@drawable/ic_contact_us" android:id="@+id/opContactUs" android:title="Contact Us"/>
+        <item android:id="@+id/opLogout" android:title="Logout"/>
+    </group>
+</menu>

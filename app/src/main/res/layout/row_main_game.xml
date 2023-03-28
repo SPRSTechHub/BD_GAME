@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#11806E"
+        app:cardElevation="@dimen/_50sdp"
+        android:tag="layout/row_main_game_0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:cardBackgroundColor="#11806E"
+            android:layout_margin="@dimen/_6sdp"
+            app:cardMaxElevation="@dimen/_15sdp"
+            android:layout_marginBottom="1500dp"
+            android:padding="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    app:cardCornerRadius="@dimen/_15sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    >
+
+                    <ImageView
+                        android:id="@+id/ivGame"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/game_1" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_toStartOf="@id/image_v">
+
+                        <TextView
+                            android:id="@+id/tvGameName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginEnd="1dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="KOLKATA FATAFAT"
+                            android:textColor="@color/white"
+                            android:textSize="12sp"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tvGameName2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/inter_bold"
+                            android:layout_below="@id/tvGameName"
+                            android:text="KOLKATA FATAFAT"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_13sdp"/>
+
+                    </LinearLayout>
+
+
+
+                    <ImageView
+                        android:id="@+id/image_v"
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="@dimen/_50sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/play" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</layout>

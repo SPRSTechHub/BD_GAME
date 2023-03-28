@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992917131667",
+    "project_id": "kidogame-12e21",
+    "storage_bucket": "kidogame-12e21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992917131667:android:f78b8fe565b2575cb31866",
+        "android_client_info": {
+          "package_name": "com.fatafatguru.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992917131667-7rq8bqlg6260s4t94c16mbq3ep8j1ts9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0e2Yx7_T9gT0N-JZSw0u9yFaZaLbrlv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992917131667-7rq8bqlg6260s4t94c16mbq3ep8j1ts9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
